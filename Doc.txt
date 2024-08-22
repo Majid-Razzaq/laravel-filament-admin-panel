@@ -1,0 +1,9 @@
+First we create laravel project and add db details
+we run php artisan migrate command
+after that we use filament command to add in filament in your project (composer require filament/filament:"^3.2" -W)
+(php artisan filament:install --panels) we add admin name Demo User 
+we create fillament user using this command (php artisan make:filament-user) named user: Majid email:admin@admin.com pass:password
+you can see there will be create a user data in user table then you can go localhost:8000/login
+we add code in User model
+created migration named categories 
+created migration named products
