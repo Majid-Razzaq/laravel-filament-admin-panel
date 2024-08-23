@@ -32,7 +32,7 @@ class ProductResource extends Resource
             ->schema([
 
                 Select::make('category_id')
-                ->label('Category')
+                ->label('Category')->required()
                 ->options(Category::pluck('name','id')->all()),
 
                 TextInput::make('name')

@@ -16,3 +16,6 @@ add redirect code in CreateCat and editCat
 after all we work on product
 after all code we add product and fetch product then we add image using file code from filament but it got error we run
 this command php artisan storage:link
+In second video start we add relation manager 
+run this command (php artisan make:filament-relation-manager CategoryResource products name)
+And then this code in getrelation function under CategoryReaource (php artisan make:filament-relation-manager CategoryResource posts title) and then add method in category model too
