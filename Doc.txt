@@ -14,3 +14,5 @@ we went to documentation field and text input copied this code (use Filament\For
 we add Code in category model
 add redirect code in CreateCat and editCat
 after all we work on product
+after all code we add product and fetch product then we add image using file code from filament but it got error we run
+this command php artisan storage:link

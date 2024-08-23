@@ -18,6 +18,7 @@ use Illuminate\Support\Str;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\FileUpload;
+use Filament\Tables\Columns\ImageColumn;
 
 class ProductResource extends Resource
 {
@@ -57,6 +58,7 @@ class ProductResource extends Resource
             Tables\Columns\TextColumn::make('name')->sortable()->searchable(),
             Tables\Columns\TextColumn::make('slug'),
             Tables\Columns\TextColumn::make('price'),
+            ImageColumn::make('image')
 
         ])
             ->filters([
