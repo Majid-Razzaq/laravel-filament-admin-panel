@@ -7,3 +7,10 @@ you can see there will be create a user data in user table then you can go local
 we add code in User model
 created migration named categories 
 created migration named products
+go to resource and copy command (php artisan make:filament-resource)created resource named in last Category
+created model named Category and second Product
+created second resource named Product
+we went to documentation field and text input copied this code (use Filament\Forms\Components\TextInput;) and paste categoryResource page, we add this code for creating field (TextInput::make('name'))
+we add Code in category model
+add redirect code in CreateCat and editCat
+after all we work on product
